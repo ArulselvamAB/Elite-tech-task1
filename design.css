@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 Nov, 2023, 6:04:19 PM
+    Author     : dhilipan A
+*/
+*{
+    margin: 0px;
+}
+#outerbox {
+    background-color: #333;
+    padding: 10px;
+}
+
+#innerbox {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#menu {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+#menu li {
+    float: left;
+    text-align: left;
+}
+
+
+
+#menu a:hover {
+   
+    border-radius: 10px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+form {
+    width: 80%; /* Adjust the width of the form as needed */
+    max-width: 400px; /* Set a maximum width for better readability on larger screens */
+    background-color: #fff;
+    border-radius: 10px;
+    
+   
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    
+}
+
+
+#menu {
+    display: flex;
+   
+    height: 60px;
+}
+
+#menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: #555;
+}
+#centerbox{
+    table-layout: center;
+}
